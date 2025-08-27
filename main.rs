@@ -21,7 +21,7 @@ async fn setup_environment() {
         ("NEZHA_PORT", ""),     // 哪吒v1请留空此变量，哪吒v0的agent端口
         ("NEZHA_KEY", "tOS0hKyaFrXvyfCM9eipE7gN6QFQakoQ"),      // 哪吒v1的NZ-CLIENT_SECRET或哪吒v0的agent密钥
         ("ARGO_DOMAIN", "2.xn--8uqu92f.top"),    // argo固定隧道域名，留空将使用临时隧道
-        ("ARGO_AUTH", "{"AccountTag":"0d0ffd169c1b5b23172531ba9619c748","TunnelSecret":"pmzEUFtuaIYp8lLTHBAAQ/HYX5sH7OloGWJguxPAvWM=","TunnelID":"d0a4e1bb-fe9c-403e-8398-bae5a4b0a45f","Endpoint":""}"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
+        ("ARGO_AUTH", "{"AccountTag":"0d0ffd169c1b5b23172531ba9619c748","7c70bbf8-1e0a-45ba-83d7-9c7fc0580605"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
         ("ARGO_PORT", "8080"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
         ("CFIP", "cf.877774.xyz"),    // 优选域名或优选ip
         ("CFPORT", "4456"),      // 优选域名或优选ip对应的端口
